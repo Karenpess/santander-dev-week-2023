@@ -16,13 +16,13 @@ Este pipeline foi adaptado para manter sua essência e lógica mesmo com limita�
 Este projeto combina ferramentas de ciência de dados, processamento de informação e IA generativa:
 
 Tecnologia -	Propósito
-**Python** -	Linguagem principal para desenvolvimento do pipeline ETL e análises
-**Pandas** -	Biblioteca para manipulação e transformação de dados
-**Google Colab** -	Ambiente de desenvolvimento executável em nuvem
-**OpenAI GPT-4** -	Modelo de linguagem para geração de mensagens personalizadas via API
-**Matplotlib / Seaborn** -	Bibliotecas para criação de gráficos e visualizações
-**API Mock (simulada)** -	Substitui API externa quando indisponível, mantendo o fluxo
-**Estrutura de Prompting** -	Constrói mensagens efetivas para o modelo GPT-4
+* **Python** -	Linguagem principal para desenvolvimento do pipeline ETL e análises
+* **Pandas** -	Biblioteca para manipulação e transformação de dados
+* **Google Colab** -	Ambiente de desenvolvimento executável em nuvem
+* **OpenAI GPT-4** -	Modelo de linguagem para geração de mensagens personalizadas via API
+* **Matplotlib / Seaborn** -	Bibliotecas para criação de gráficos e visualizações
+* **API Mock (simulada)** -	Substitui API externa quando indisponível, mantendo o fluxo
+* **Estrutura de Prompting** -	Constrói mensagens efetivas para o modelo GPT-4
 A integração com GPT-4 exemplifica o uso de grandes modelos de linguagem em pipelines de dados reais.
 
 ## IMPORTANTE
