@@ -1,56 +1,30 @@
-# Santander Dev Week 2023
+# Pipeline ETL com Python e GPT-4 (Santander Dev Week 2023 / 2025)
 
-Java RESTful API criada para a Santander Dev Week.
+Pipeline ETL com Python e IA generativa (GPT-4).
+
+Este projeto é uma adaptação do desafio proposto no Santander Dev Week 2023 com simulações de extração de um API já fora do ar, nele se implementa um pipeline ETL (Extração, Transformação e Carregamento) completo usando Python, organizado no Google Colab. O objetivo é extrair dados de usuários, transformar esses dados gerando mensagens de marketing personalizadas com a API OpenAI GPT-4, e simular o carregamento das mensagens em um sistema de destino, seguindo a proposta do desafio Santander Dev Week 2023.
+
+O projeto demonstra:
+* Extração de dados
+* Integração com APIs
+* Uso de IA generativa para transformação de dados
+* Visualizações e análises exploratórias
+* Boas práticas de engenharia de dados
+Este pipeline foi adaptado para manter sua essência e lógica mesmo com limitação de API ou recursos externos.
 
 ## Principais Tecnologias
- - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
- - **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
- - **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
- - **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
- - **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
+Este projeto combina ferramentas de ciência de dados, processamento de informação e IA generativa:
+Tecnologia -	Propósito
+**Python** -	Linguagem principal para desenvolvimento do pipeline ETL e análises
+**Pandas** -	Biblioteca para manipulação e transformação de dados
+**Google Colab** -	Ambiente de desenvolvimento executável em nuvem
+**OpenAI GPT-4** -	Modelo de linguagem para geração de mensagens personalizadas via API
+**Matplotlib / Seaborn** -	Bibliotecas para criação de gráficos e visualizações
+**API Mock (simulada)** -	Substitui API externa quando indisponível, mantendo o fluxo
+**Estrutura de Prompting** -	Constrói mensagens efetivas para o modelo GPT-4
+A integração com GPT-4 exemplifica o uso de grandes modelos de linguagem em pipelines de dados reais.
 
-## [Link do Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=1421%3A432&mode=design&t=6dPQuerScEQH0zAn-1)
 
-O Figma foi utilizado para a abstração do domínio desta API, sendo útil na análise e projeto da solução.
-
-## Diagrama de Classes (Domínio da API)
-
-```mermaid
-classDiagram
-  class User {
-    -String name
-    -Account account
-    -Feature[] features
-    -Card card
-    -News[] news
-  }
-
-  class Account {
-    -String number
-    -String agency
-    -Number balance
-    -Number limit
-  }
-
-  class Feature {
-    -String icon
-    -String description
-  }
-
-  class Card {
-    -String number
-    -Number limit
-  }
-
-  class News {
-    -String icon
-    -String description
-  }
-
-  User "1" *-- "1" Account
-  User "1" *-- "N" Feature
-  User "1" *-- "1" Card
-  User "1" *-- "N" News
 ```
 
 ## IMPORTANTE
