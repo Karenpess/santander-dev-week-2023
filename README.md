@@ -5,7 +5,7 @@ Pipeline ETL com Python e IA generativa (GPT-4).
 Este projeto é uma adaptação do desafio proposto no Santander Dev Week 2023 com simulações de extração de um API já fora do ar, nele se implementa um pipeline ETL (Extração, Transformação e Carregamento) completo usando Python, organizado no Google Colab. O objetivo é extrair dados de usuários, transformar esses dados gerando mensagens de marketing personalizadas com a API OpenAI GPT-4, e simular o carregamento das mensagens em um sistema de destino, seguindo a proposta do desafio Santander Dev Week 2023.
 
 O projeto demonstra:
-* Extração de dados
+* Extração de dados 
 * Integração com APIs
 * Uso de IA generativa para transformação de dados
 * Visualizações e análises exploratórias
