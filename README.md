@@ -23,6 +23,7 @@ Tecnologia -	Propósito
 * **Matplotlib / Seaborn** -	Bibliotecas para criação de gráficos e visualizações
 * **API Mock (simulada)** -	Substitui API externa quando indisponível, mantendo o fluxo
 * **Estrutura de Prompting** -	Constrói mensagens efetivas para o modelo GPT-4
+
 A integração com GPT-4 exemplifica o uso de grandes modelos de linguagem em pipelines de dados reais.
 
 ## IMPORTANTE
