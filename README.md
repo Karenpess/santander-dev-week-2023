@@ -14,6 +14,7 @@ Este pipeline foi adaptado para manter sua essência e lógica mesmo com limita�
 
 ## Principais Tecnologias
 Este projeto combina ferramentas de ciência de dados, processamento de informação e IA generativa:
+
 Tecnologia -	Propósito
 **Python** -	Linguagem principal para desenvolvimento do pipeline ETL e análises
 **Pandas** -	Biblioteca para manipulação e transformação de dados
