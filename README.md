@@ -25,9 +25,6 @@ Tecnologia -	Propósito
 **Estrutura de Prompting** -	Constrói mensagens efetivas para o modelo GPT-4
 A integração com GPT-4 exemplifica o uso de grandes modelos de linguagem em pipelines de dados reais.
 
-
-```
-
 ## IMPORTANTE
 
 Este projeto foi construído com um viés totalmente educacional para a DIO. Por isso, disponibilizamos uma versão mais robusta dele no repositório oficial da DIO:
